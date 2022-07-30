@@ -1,0 +1,1009 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Asap;
+}
+*{
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6,p{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1360px;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: #0E77AF;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header div{
+    display: flex;
+}
+header .img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    position: relative;
+    background-color: white;
+    margin-left: 20px;
+}
+header .img img{
+    height: 13px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+header .img img .fac{
+    width: 7px;
+}
+header .img img .tw .vk{
+    width: 12px;
+    position: absolute;
+}
+.probel{
+    width: 530px;
+}
+header p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* //////////nav/////////// */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.probel2{
+    width: 37px;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 6px;
+}
+a:hover, .active{
+    font-weight: 600;
+    padding: 3px;
+}
+.phone span{
+    color: #7D7D7D;
+}
+.phone{
+    display: flex;
+}
+.phone img{
+    width: 23px;
+    height: 36px;
+    margin-right: 7px;
+}
+/* ///////////swiper-wrapper//////////// */
+.swiper-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 645px;
+    background-image: url(./img/Bitmap\ \(2\).png);
+    margin-bottom: 70px;
+}
+.swiper-wrapper img{
+    width: 19px;
+    height: 35px;
+}
+.swiper-wrapper .probel{
+    width: 160px;
+}
+.swiper-wrapper div{
+    width: 506px;
+}
+.swiper-wrapper h3{
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.swiper-wrapper h1{
+    font-size: 64px;
+}
+button{
+    color: white;
+    font-size: 24px;
+    padding: 20px 60px 20px 60px;
+    background-color: #B4141B;
+    border: 0;
+    margin-top: 50px;
+}
+/* ////////////////container1////////////// */
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.container1 main{
+    width: 630px;
+    margin-bottom: 50px;
+}
+.container1 main img{
+    width: 630px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.container1 aside{
+    width: 350px;
+    margin-left: 70px;
+}
+.container1 h2{
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.container1 main p{
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.container1 aside section div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.container1 aside section div h3{
+    color: #0E77AF;
+}
+.container1 aside section span{
+    color: #7D7D7D;
+}
+.container1 section{
+    background-color: #F2F2F2;
+    padding: 45px;
+    margin-bottom: 5px;
+}
+.container1 aside section p{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+/* ///////////container2//////////// */
+.container2{
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.container2 main{
+    width: 600px;
+    height: 350px;
+    background-image: url(./img/825454080.png);
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0;
+}
+.container2 main button{
+    width: 400px;
+    font-size: 16px;
+    color: white;
+    background-color: #0E77AF;
+    opacity: 90%;
+    padding: 20px 0 20px 16px;
+    text-align: left;
+    margin: 15px 0 15px 0;
+}
+.container2 main button:hover, 
+    .container2 main button:first-child{
+    color: black;
+    background-color: white;
+}
+.container2 aside{
+    width: 400px;
+    margin-left: 50px;
+}
+.container2 ul{
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0;
+}
+.container2 aside span{
+    color: #7D7D7D;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.container2 h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.container2 button{
+    font-size: 16px;
+    margin: 0;
+}
+/* ////////////////container3//////////// */
+.container3{
+    width: 100%;
+    display: flex;
+    margin-bottom: 160px;
+}
+.container3 main{
+    width: 400px;
+    margin-left: 200px;
+}
+.container3 h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.container3 span{
+    display: block;
+    font-size: 24px;
+    color: #7D7D7D;
+    margin-bottom: 60px;
+}
+.container3 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.container3 div h3{
+    color: #0E77AF;
+    font-size: 24px;
+}
+.container3 .float {
+    display: flex;
+    justify-content: flex-start;
+}
+.container3 .float img{
+    margin: 32px 32px 32px 0;
+}
+.container3 aside{
+    width: 400px;
+    margin-left: 50px;
+}
+.container3 aside img{
+    width: 400px;
+}
+.container3 button{
+    font-size: 16px;
+}
+/* ////////container4//////////////// */
+.container4{
+    width: 100%;
+    height: 600px;
+    background-color: #0E77AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.container4 aside h2{
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+.container4 aside p{
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+}
+.container4 aside p span{
+    display: block;
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 48px;
+}
+.container4 main{
+    width: 550px;
+    height: 250px;
+    background-color: white;
+    padding: 30px;
+    margin-left: 150px;
+}
+.container4 main p{
+    line-height: 30px;
+}
+.container4 h4{
+    line-height: 35px;
+}
+/* /////////////container5////////// */
+.container5{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+.container5 main{
+    margin-right: 100px;
+}
+.container5 main h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.container5 main p, .container5 main h3{
+    color: #595959;
+    margin-bottom: 20px;
+}
+.container5 aside{
+    display: flex;
+    flex-direction: column;
+}
+.container5 aside form input{
+    display: block;
+}
+input[type="text"] {
+    width: 300px;
+    height: 45px;
+    margin-bottom: 35px;
+    padding: 10px;
+    outline: none;
+}
+.container5 aside h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.container5 aside button{
+    font-size: 16px;
+    padding: 10px 10px;
+    width: 100px;
+    align-self: flex-end;
+}
+/* //////////footer//////////////// */
+footer{
+    width: 100%;
+}
+footer .contacts{
+    display: flex;
+    justify-content: center;
+}
+footer .contacts  div{
+    width: 350px;
+    height: 150px;
+    background-color: #6C6C6C;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+footer .contacts  div:first-child{
+    background-color: #5F5F5F;
+}
+footer .contacts  div:last-child{
+    background-color:#7B7B7B;
+}
+footer .contacts img{
+    display: inline;
+    position: absolute;
+}
+footer .contacts h4{
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 40px;
+}
+footer .contacts span{
+    margin-left: 50px;
+}
+footer .aaa{
+    display: flex;
+    justify-content: center;
+}
+footer .aaa img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    background-color: white;
+    margin-right: 20px;
+}
+footer .aaa div{
+    width: 350px;
+    padding: 20px;
+}
+footer .aaa div h4{
+    margin-bottom: 40px;
+}
+footer .contacts .aaa div p{
+    line-height: 20px;
+}
+footer .bbb{
+    padding: 25px 0 25px 200px;
+    background-color: #363636;
+    color: white;
+}
+footer .aaa{
+    width: 100%;
+    height: 550px;
+    background-color: #4A4A4A;
+    padding-top: 200px;
+    position: relative;
+}
+footer h4, footer p, footer span{
+    color: white;
+}
+footer .contacts{
+    position: relative;
+    top: 75px;
+    z-index: 2;
+}
+/* //////////@media  1024px/////////// */
+@media(min-width: 1024px) and (max-width:1368px){
+    .probel2{
+        width: 29px;
+    }
+    nav img{
+        width: 65px;
+        height: 65px;
+    }
+    header{
+        margin-bottom: 12px;
+    }
+    nav{
+        margin-bottom: 12px;
+    }
+    .swiper-wrapper{
+        height: 600px;
+        margin-bottom: 50px;
+    }
+    .swiper-wrapper div{
+        width: 400px;
+    }
+    .swiper-wrapper button{
+        padding: 15px 50px 15px 50px;
+        font-size: 20px;
+    }
+    .container1 h2{
+        margin-bottom: 40px;
+    }
+    .container1 {
+        margin-bottom: 0;
+    }
+    .container3{
+        margin-bottom: 130px;
+    }
+    .container5{
+        margin-bottom: 30px;
+    }
+    footer .contacts  div{
+        width: 280px;
+        height: 135px;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    footer .contacts h4{
+        margin-left: 40px;
+        font-size: 18px;
+        line-height: 35px;
+    }
+    footer .contacts span{
+        margin-left: 40px;
+    }
+    footer .aaa{
+        height: 400px;
+        padding-top: 130px;
+    }
+    footer .aaa div{
+        width: 280px;
+    }
+    footer .aaa div p{
+        font-size: 16px;
+    }
+}
+/* ////////////////////////////////////////////// */
+@media(min-width: 768px) and (max-width: 1023px){
+    header{
+        margin-bottom: 10px;
+    }
+    .probel{
+        width: 320px;
+    }
+    nav{
+        margin-bottom: 10px;
+    }
+    nav img{
+        width: 50px;
+        height: 50px;
+    }
+    .probel2{
+        width: 70px;
+    }
+    nav div a{
+        font-size: 10px;
+        padding: 3px;
+    }
+    .phone img{
+        width: 18px;
+        height: 26px;
+        margin-right: 4px;
+    }
+    nav .phone div span{
+        font-size: 12px;
+    }
+    nav .phone div{
+        font-size: 10px;
+    }
+    .swiper-wrapper{
+        height: 400px;
+        background-size: cover;
+        background-position: left;
+        margin-bottom: 30px;
+    }
+    .swiper-wrapper div{
+        width: 300px;
+    }
+    .swiper-wrapper h3{
+        font-size: 19px;
+    }
+    .swiper-wrapper h1{
+        font-size: 32px;
+    }
+    .swiper-wrapper img{
+        width: 14px;
+        height: 25px;
+    }
+    button{
+        font-size: 19px;
+        padding: 13px 50px 13px 50px;
+        margin-top: 40px;
+    }
+    .container1{
+        margin-bottom: 25px;
+    }
+    .container1 main{
+        width: 400px;
+        text-align: justify;
+    }
+    .container1 main img{
+        width: 400px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    .container1 aside{
+        width: 250px;
+        margin-left: 40px;
+    }
+    .container1 h2{
+        margin-bottom: 30px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .container1 section{
+        padding: 25px 20px 25px 20px;
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+    .container1 aside section div img{
+        width: 25px;
+    }
+    .container2{
+        margin-bottom: 40px;
+    }
+    .container2 aside{
+        width: 250px;
+    }
+    .container2 aside h2{
+        font-size: 24px;
+    }
+    .container2 aside span{
+        font-size: 19px;
+    }
+    .container2 aside button{
+        font-size: 14px;
+        padding: 12px 30px 12px 30px;
+    }
+    .container2 ul{
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .container2 main{
+        width: 440px;
+        height: 300px;
+    }
+    .container2 main button{
+        width: 300px;
+        font-size: 14px;
+        opacity: 90%;
+        padding: 15px 0 15px 16px;
+    }
+    .container2 main {
+        background-size: cover;
+        background-position: center;
+    }
+    .container3 main{
+        width: 350px;
+        margin-left: 40px;
+    }
+    .container3 aside{
+        width: 150px;
+        margin-left: 50px;
+    }
+    .container3 h2{
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+    .container3 span{
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+    .container3 div h3{
+        font-size: 19px;
+    }
+    .container3 main .float img{
+        width: 120px;
+        height: 120px;
+        margin: 24px 24px 24px 0;
+    }
+    .container3 main div img{
+        width: 13px;
+        height: 13px;
+    }
+    .container3 aside {
+        width: 300px;
+    }
+    .container3 aside img {
+        width: 300px;
+    }
+    .container3 aside p{
+        text-align: justify;
+    }
+    .container3 aside button{
+        font-size: 14px;
+        padding: 12px 30px 12px 30px;
+    }
+    .container3{
+        margin-bottom: 100px;
+    }
+    .container4{
+        height: 450px;
+        margin-bottom: 60px;
+    }
+    .container4 aside h2{
+        font-size: 24px;
+    }
+    .container4 aside p{
+        font-size: 16px;
+    }
+    .container4 aside p span{
+        font-size: 48px;
+        font-weight: 900;
+    }
+    .container4 main{
+        width: 350px;
+        height: 220px;
+        padding: 30px;
+        margin-left: 150px;
+        padding: 20px ;
+    }
+    .container4 main p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .container4 main h4{
+        font-size: 16px;
+    }
+    .container5{
+        margin-bottom: 0;
+    }
+    .container5 main{
+        width: 300px;
+        margin-right: 50px;
+    }
+    .container5 h2{
+        font-size: 19px;
+    }
+    .container5 aside{
+        width: 120px;
+        margin-right: 120px;
+    }
+    input[type="text"] {
+        width: 250px;
+        height: 40px;
+        margin-bottom: 25px;
+    }
+    footer .contacts  div{
+        width: 210px;
+        height: 120px;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    footer .contacts h4{
+        margin-left: 40px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+    footer .contacts span{
+        margin-left: 40px;
+    }
+    footer .contacts div img{
+        width: 15px;
+    }
+    footer .aaa{
+        height: 400px;
+        padding-top: 130px;
+    }
+    footer .aaa div{
+        width: 235px;
+    }
+    footer .aaa div p{
+        text-align: justify;
+    }
+    footer .bbb{
+        padding: 15px 0 15px 100px;
+    }
+
+}
+/* /////////////////////////////////////////////// */
+@media(min-width: 600px) and (max-width: 767px){
+    header{
+       margin-bottom: 10px;
+    }
+    .probel{
+        width: 150px;
+    }
+    /* /////////////////// */
+    nav{
+        margin-bottom: 10px;
+        
+    }
+    nav div a{
+        display: none;
+    }
+    nav .probel2{
+        width: 0;
+    }
+    nav img{
+        width: 50px;
+        height: 50px;
+        margin-right: 125px;
+    }
+    .phone img{
+        width: 20px;
+        height: 30px;
+        margin-right: 4px;
+    }
+    nav .phone div span{
+        font-size: 14px;
+    }
+    nav .phone div{
+        font-size: 12px;
+    }
+    /* ////////////////////////// */
+    .swiper-wrapper{
+        width: 100%;
+        height: 350px;
+        background-size: cover;
+        background-position: -100px;
+        margin-bottom: 20px;
+    }
+    .swiper-wrapper div{
+        width: 250px;
+    }
+    .swiper-wrapper h3{
+        font-size: 19px;
+    }
+    .swiper-wrapper h1{
+        font-size: 32px;
+    }
+    .swiper-wrapper button{
+        font-size: 16px;
+        padding: 10px 30px 10px 30px;
+    }
+    /* ////////////////////////// */
+    .container1{
+        margin-bottom: 20px;
+    }
+    .container1 main{
+        width: 350px;
+        text-align: justify;
+        margin-left: 15px;
+    }
+    .container1 main img{
+        width: 350px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    .container1 aside{
+        width: 200px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .container1 h2{
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .container1 section{
+        padding: 25px 20px 25px 20px;
+        margin-bottom: 5px;
+        text-align: justify;
+    }
+    .container1 aside section div img{
+        width: 25px;
+    }
+    /* /////////////////////////////////// */
+    .container2{
+        margin-bottom: 40px;
+    }
+    .container2 aside{
+        width: 185px;
+        margin-left: 30px;
+    }
+    .container2 aside h2{
+        font-size: 24px;
+    }
+    .container2 aside span{
+        font-size: 19px;
+    }
+    .container2 aside button{
+        font-size: 14px;
+        padding: 12px 30px 12px 30px;
+    }
+    .container2 main{
+        width: 365px;
+        height: 300px;
+    }
+    .container2 main button{
+        width: 290px;
+        font-size: 14px;
+        padding: 15px 0 15px 16px;
+    }
+    .container2 main {
+        background-size: cover;
+        background-position: center;
+    }
+    /* ////////////////////////////////// */
+    .container3{
+        margin-bottom: 60px;
+    }
+    .container3 main{
+        width: 278px;
+        margin-left: 15px;
+    }
+    .container3 h2{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    } 
+    .container3 span{
+        font-size: 19px;
+        margin-bottom: 30px;
+    }
+    .container3 div{
+        margin-bottom: 10px;
+    }
+    .container3 div h3{
+        font-size: 19px;
+    }
+    .container3 .float img{
+        margin: 15px 15px 15px 0;
+        width: 120px;
+    }
+    .container3 .float p{
+        line-height: 95%;
+    }
+    .container3 aside{
+        width: 278px;
+        margin-left: 15px;
+    }
+    .container3 aside img{
+        width: 278px;
+        margin-bottom: 15px;
+    }
+    .container3 button{
+        font-size: 16px;
+        padding: 12px 30px 12px 30px;
+        margin-top: 25px;
+    }
+    /* ///////////////////////////////////// */
+    .container4{
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .container4 aside h2{
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .container4 aside p{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    .container4 aside p span{
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 32px;
+    }
+    .container4 main{
+        width: 300px;
+        height: 180px;
+        padding: 10px;
+        margin-left: 30px;
+    }
+    .container4 main p{
+        line-height: 130%;
+        font-size: 15px;
+    }
+    .container4 h4{
+        line-height: 130%;
+    }
+    /* //////////////////////////// */
+    .container5{
+        margin-bottom: 50px;
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .container5 main{
+        width: 275px;
+        margin-right: 15px;
+    }
+    .container5 main h2{
+        font-size: 24px;
+        margin-bottom: 7px;
+    }
+    .container5 main p, .container5 main h3{
+        margin-bottom: 10px;
+    }
+    input[type="text"] {
+        width: 275px;
+        margin-bottom: 30px;
+        padding: 7px;
+    }
+    .container5 aside h2{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .container5 aside button{
+        font-size: 14px;
+        padding: 10px 10px;
+        align-self: flex-end;
+    }
+    /* /////////////////////// */
+    footer .contacts  div{
+        width: 200px;
+        height: 100px;
+        padding-top: 7px;
+        padding-left: 10px;
+    }
+    footer .contacts h4{
+        margin-left: 35px;
+        font-size: 16px;
+        line-height: 35px;
+    }
+    footer .contacts span{
+        margin-left: 35px;
+        font-size: 14px;
+    }
+    footer .contacts div img{
+        width: 14px;
+    }
+    footer .aaa{
+        height: 370px;
+        padding-top: 100px;
+    }
+    footer .aaa div{
+        width: 200px;
+    }
+    footer .aaa div p{
+        text-align: justify;
+    }
+    footer .bbb{
+        padding: 15px 0 15px 80px;
+        font-size: 14px;
+    }
+}
