@@ -1009,3 +1009,181 @@ footer .contacts{
         font-size: 14px;
     }
 }
+/* ...///////////////////////////////// */
+@media(max-width: 600px){
+    header{
+        margin-bottom: 8px;
+    }
+    header div{
+        display: flex;
+    }
+    header .img{
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        margin-left: 20px;
+    }
+    header .img img{
+        height: 13px;
+        position: absolute;
+        top: 1px;
+        left: 1px;
+    }
+    .probel{
+        width: 80px;
+    }
+    header p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    /* ////////////////////////////// */
+    nav{
+        margin-bottom: 8px;
+    }
+    .probel2{
+        width: 0;
+    }
+    nav div a{
+        display: none;
+    }
+    nav img{
+        width: 40px;
+        height: 40px;
+        margin-right: 0px;
+    }
+    .phone img{
+        width: 17px;
+        height: 26px;
+        margin-right: 7px;
+    }
+    nav .phone div span{
+        font-size: 12px;
+    }
+    nav .phone div{
+        font-size: 12px;
+    }
+    /* ///////////////////////////////////// */
+    .swiper-wrapper{
+        height: 250px;
+        background-size: cover;
+        background-position: -70px;
+        margin-bottom: 20px;
+    }
+    .swiper-wrapper div{
+        width: 150px;
+    }
+    .swiper-wrapper h3{
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .swiper-wrapper h1{
+        font-size: 24px;
+    }
+    .swiper-wrapper button{
+        font-size: 12px;
+        padding: 7px 20px 7px 20px;
+        margin-top: 20px;
+    }
+    .swiper-wrapper img{
+        width: 15px;
+        height: 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /* /////////////////////// */
+    .container1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .container1 main{
+        display: block;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .container1 main img{
+        width: 100%;
+        height: 265px;
+        margin-bottom: 15px;
+    }
+    .container1 aside{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .container1 h2{
+        margin-bottom: 19px;
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .container1 main p{
+        margin: 0 10px 15px 10px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: justify;
+    }
+    .container1 aside section div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .container1 section{
+        padding: 35px;
+        margin-bottom: 5px;
+    }
+    /* ////////////////////////// */
+    .container2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 25px;
+        
+    }
+    .container2 main{
+        display: block;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    .container2 main button{
+        width: 300px;
+        font-size: 14px;
+        padding: 15px 0 15px 15px;
+        text-align: left;
+        margin: 15px 0 15px 0;
+    }
+    .container2 aside{
+        display: block;
+        width: 100%;
+        margin: 0 ;
+    }
+    .container2 ul{
+        font-weight: 400;
+        line-height: 25px;
+        padding: 0;
+        font-style: 14px;
+        margin: 0 15px 0 55px;
+    }
+    .container2 aside span{
+        margin-left: 35px;   
+        font-size: 19px;
+        margin-bottom: 40px;
+    }
+    .container2 h2{
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .container2 button{
+        font-size: 14px;
+        padding: 7px 20px 7px 20px;
+        margin: 15px 15px 0 220px;
+    }
+}
